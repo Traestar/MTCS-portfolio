@@ -1,0 +1,14 @@
+
+
+
+#project: Newman Energy Website
+
+#category: Web Design
+
+#short desc: This is a website project for Newman Energy LLC.
+
+#long desc: Newman Energy will look to make a statement in the energy industry through application 
+of solar and wind energy technologies and solutions. This company has developed and created in 2012 
+by Tyler and Riley Newman. This website will be launched simultaneously with the company's new Energy Center.
+
+#skills: PHP, CSS, HTML, Bootstrap

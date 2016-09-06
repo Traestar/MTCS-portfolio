@@ -1,0 +1,36 @@
+
+
+
+#project: BBC Imitation website 
+
+#category: Web/Graphic Design
+
+#short desc: Practice project working with HTML and CSS
+
+#long desc: This is a practice project that I tried to create a duplicate of the BBC website. Still
+working it, but it is a great project.
+
+#skills: HTML, CSS
+
+
+
+Project Title: 
+
+BBC
+
+Project Description:
+
+This is a practice project that I tried to create a duplicate of the BBC website.
+
+Inspiration and Design:
+
+N/A
+
+Project Progress:
+
+Still working on it, but it is a great project.
+
+Final Design:
+
+N/A
+

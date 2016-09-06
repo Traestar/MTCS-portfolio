@@ -1,0 +1,14 @@
+
+
+
+#project: Traestar Logo Revision
+
+#category: Graphic/Logo Design
+
+#short desc: A Revision of the original Traestar Logo from 2006
+
+#long desc: This WORKS!! This is the revision of the original Traestar Logo from 2006 of which I've used for
+many years. Feel it is time to revise and restructure the logo, keeping the original idea but creating a more detailed, professional,
+and clean look to the logo. This will be used for branding for my personal use and so forth.
+
+#skills: GIMP, Adobe Illustrator, Inkscape, Adobe Photoshop

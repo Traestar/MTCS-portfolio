@@ -1,0 +1,43 @@
+
+
+
+#project: PPDC
+
+#category: Web/Graphic Design
+
+#short desc: Project on PPDC
+
+#long desc: Howard Tibbs designed a CMS backend website for the Philadelphia Pediatric Medical Device Consortium. 
+The Philadelphia Pediatric Medical Device Consortium or PPDC aims to assist pediatric medical device innovators 
+along the pathway from concept to commercialization.
+
+#skills: HTML, CSS, PHP
+
+
+
+Project Title: 
+
+Philadelphia Pediatric Medical Device Consortium
+
+Project Description:
+
+Howard Tibbs designed a CMS backend website for the Philadelphia Pediatric Medical Device Consortium. 
+The Philadelphia Pediatric Medical Device Consortium or PPDC aims to assist pediatric medical device innovators 
+along the pathway from concept to commercialization.
+
+Inspiration and Design:
+
+The inspiration to the design was based on many of the nationwide pediatric medical device websites. The inspiration, 
+design, and structure of the website was discussed with the project manager and all stakeholder clients.
+
+Project Progress:
+
+There were some ups and downs, but the project was finished and the clients were satisfied with the end result of 
+the website. The website was created using Joomla! CMS system with a T3 framework.
+
+Final Design:
+
+
+The final design as mentioned came out very well and the clients were able to work with the backend of the site.
+
+Client: CHOP Research

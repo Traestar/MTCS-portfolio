@@ -1,0 +1,44 @@
+
+
+
+#project: TSPRG Portal
+
+#category: Web/Graphic Design
+
+#short desc: Project on TSPRG
+
+#long desc: Created a server portal for the Terminal Surveillance Performance and Registration Group (TSPRG) project. 
+A portal was needed in order to maintain project documents and data.
+
+#skills: HTML, CSS, PHP
+
+
+
+Project Title: 
+
+Terminal Surveillance Performance and Registration Group
+
+Project Description:
+
+Created a server portal for the Terminal Surveillance Performance and Registration Group (TSPRG) project. 
+A portal was needed in order to maintain project documents and data.
+
+Inspiration and Design:
+
+The design and structure of the portal was discussed with a Project Lead. The objective was to create another 
+directory in a much bigger intranet portal and to use the design of the other pages to create the TSPRG portal.
+
+Project Progress:
+
+The original TSPRG portal pages were created using PHP, HTML, and CSS. The portal worked but it was honestly 
+a mess. The main issue with the page was that it was not organized and lacked a easy to read and understand design. 
+So he used a CMS system called CMS Made Simple in order to redesign the portal. It provided a better look, 
+organization, and functionality of the overall site.
+
+Final Design:
+
+
+The final look of the site was without question an update to the old portal, with a briefing on the main page, 
+a better working log-in and registration page, clear navigation and better radar site page.
+
+Client: Federal Aviation Administration

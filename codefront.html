@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Multi-Taskic Computer Solutions - Home</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <style>
+	 
+		body{
+		margin:0;
+		padding:0;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		font-weight: 300;
+	
+	}
+
+	#menuBar{
+		width:100%;
+		height:40px;
+		background-color:#e0e0e0;
+		border-bottom:1px solid grey;
+		position: absolute;
+		top: 52px;
+		right: 0;
+	
+	}
+	
+	#logo{
+		padding:5px 0 0 70px;
+		font-weight:bold;
+		font-size:120%;
+		float:left;
+	
+	}
+	
+	#buttonDiv{
+		float:right;
+		padding: 5px 10px 0 0;
+	
+	}
+	
+	#runButton{
+		font-size:120%
+	
+	}
+	
+	#toggles{
+		width:184px;
+		margin:0 auto;
+		list-style:none;
+		border:1px solid grey;
+		border-radius:3px;
+		height:27px;
+		padding:0;
+		position:relative;
+		top:5px;
+	}
+	
+	#toggles li{
+		float:left;
+		border-right:1px solid grey;
+		padding:3px 5px;
+	}
+	
+	.break{
+			clear:both;	
+	}
+	
+	.codeContainer{
+		height:100%;
+		width:50%;
+		float:left;
+		position:relative;
+		margin-top: 93px;
+
+		
+	}
+	
+	.codeContainer textarea{
+		width:99%;
+		height:100%;
+		border:none;
+		font-family:monotype;
+		font-size:90%;
+		border-right:1px solid grey;
+		box-sizing:border-box;
+		padding:10px;
+	}
+	
+	.codeLabel{
+		position:absolute;
+		right:10px;
+		top:10px;
+	
+	}
+	
+	#CSSContainer, #JSContainer {
+		display:none;
+	
+	}
+	
+	iframe{
+	
+		height:100%;
+		position:relative;
+		left:20px;
+		border:none;
+		margin-top:5px;
+	}
+	
+	.selected {
+		
+		background-color:grey;
+	
+	}
+
+		
+		.footer{
+		
+			padding:40px;
+		}
+		.text-muted{ padding-top:15px;}
+		
+		#nav-footer{
+			float:right;
+		
+		}
+		
+		
+		
+		
+	 
+	</style>
+  <body>
+  
+	<!-- Navigation -->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				
+				<a href="index.html" class="navbar-brand">Multi-Taskic Computer Solutions</a>
+			
+				<button type="button" class="navbar-toggle" data-toggle="collapse" 
+				data-target=".navbar-collapse">
+					<span class="sr-only">Toggle Navigation</span>
+					
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse">
+			
+				<ul class="nav navbar-nav">
+					
+					<li><a href="index.html">Page 1</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li class="active"><a href="codefront.html">CodeFront</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</div>
+
+	<div class="break"></div>
+	
+	<!-- Page Content -->
+	<div class="container">
+
+		<div id="menuBar">
+			<div id="logo">
+		
+				CodePlayer
+				
+			</div>
+		
+			<div id="buttonDiv">
+		
+				<button id="runButton">Run</button>
+		
+			</div>
+		
+			<ul id="toggles">
+				<li class="toggle selected">HTML</li>
+				<li class="toggle">CSS</li>
+				<li class="toggle">JS</li>
+				<li class="toggle selected" style="border:none">Result</li>
+			</ul>
+	
+		</div>
+		
+		<div class="break"></div>
+		
+		<div class="codeContainer" id="HTMLContainer">
+			<div class="codeLabel">HTML</div>
+			<textarea id="htmlCode"><div id="test"></div></textarea>
+		
+		</div>
+	
+		<div class="codeContainer" id="CSSContainer">
+			<div class="codeLabel">CSS</div>
+			<textarea id="cssCode">html {background-color:blue} </textarea>
+		
+		</div>
+	
+		<div class="codeContainer" id="JSContainer">
+			<div class="codeLabel">JS</div>
+			<textarea id="jsCode">document.getElementById("test").innerHTML="It's Working!";</textarea>
+		
+		</div>
+	
+		<div class="codeContainer" id="ResultsContainer">
+			<div class="codeLabel">Result</div>
+		
+			<iframe id="resultFrame"></iframe>
+		
+		</div>
+		
+	</div>
+	
+	<div class="break"></div>
+
+	 
+	 <footer class="footer">
+	 
+		<div class="navbar navbar-inverse navbar-fixed-bottom">
+			<div class="container">
+			
+				<div class="navbar-header" id="footer-header">
+				<p class="text-muted">Copyright &copy; 2008<script>new Date().getFullYear()>2008&&document.write("-"+new Date().getFullYear());</script> -
+				<a href="multitaskiccomputers.com">Multi-Taskic Computer Solutions</a>. All Rights Reserved.</p>
+				
+				</div>
+			
+				<div class="navbar-collapse collapse" id="footer-body">
+                <ul class="nav navbar-nav" id="nav-footer">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+				
+			</div>
+		
+		</div>
+	 
+	 </footer>
+	 
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	 <script>
+	// Set the height of the windows and menuBar, then
+	//subtract from each other:
+	
+	var windowHeight=$(window).height();
+	var menuBarHeight=$("#menuBar").height();
+	
+	var codeContainerHeight=windowHeight-menuBarHeight;
+	
+	$(".codeContainer").height(codeContainerHeight+"px");
+	
+	// Toggle between code Containers:
+	
+	$(".toggle").click(function() {
+	
+		$(this).toggleClass("selected");
+		
+		var activeDiv=$(this).html();
+		
+		$("#"+activeDiv+"Container").toggle();
+	
+		var showingDivs=$(".codeContainer").filter(function() {
+			
+			return($(this).css("display")!="none");
+		
+		}).length;
+		
+		var width=100/showingDivs;
+		
+		$(".codeContainer").width(width+"%");
+		
+	});
+	
+	// Press button to run the contents of all containers:
+	
+	$("#runButton").click(function(){
+	
+		$("iframe").contents().find("html").html('<style>'+$("#cssCode").val()+'</style>'+$("#htmlCode").val());
+	
+		document.getElementById("resultFrame").contentWindow.eval($("#jsCode").val());
+	});
+	
+</script>
+	 
+  </body>
+</html>

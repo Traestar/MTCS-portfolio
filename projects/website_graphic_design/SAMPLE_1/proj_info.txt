@@ -1,0 +1,14 @@
+
+
+
+#project: SAMPLE_1
+
+#category: Web Design
+
+#short desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et nisl egestas
+
+#long desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et nisl egestas, 
+malesuada libero ac, dignissim urna. Vestibulum cursus eros at velit tincidunt, ac suscipit mi hendrerit. 
+Pellentesque ex enim, blandit nec erat eget, consequa.
+
+#skills: PHP, CSS, HTML

@@ -1,0 +1,38 @@
+
+
+
+#project: Google Maps API project
+
+#category: Web/Graphic Design
+
+#short desc: Practice project working with Google Maps
+
+#long desc: This is a practice project that I worked on to play around with Google Maps. Still working
+with it, but I do like it.
+
+#skills: Google Maps API, HTML, CSS
+
+
+
+Project Title: 
+
+Google Maps API project
+
+Project Description:
+
+This is a practice project that I worked on to play around with Google Maps. 
+
+Inspiration and Design:
+
+N/A
+
+Project Progress:
+
+Still working
+with it, but I do like it.
+
+Final Design:
+
+N/A
+
+Client: Federal Aviation Administration

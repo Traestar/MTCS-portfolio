@@ -1,0 +1,41 @@
+
+
+
+#project: Cystic Fibrosis
+
+#category: Web/Graphic Design
+
+#short desc: Project on Cystic Fibrosis
+
+#long desc: Howard Tibbs redesigned a website for a client representing Cystic Fibrosis Related Diabetes Research Studies organization. 
+This is a research study project that focuses on Cystic Fibrosis Related Diabetes in young infants.
+
+#skills: HTML, CSS, PHP
+
+
+
+Project Title: 
+
+Cystic Fibrosis Related Diabetes Research Studies
+
+Project Description:
+
+Howard Tibbs redesigned a website for a client representing Cystic Fibrosis Related Diabetes
+Research Studies organization. This is a research study project that focuses on Cystic Fibrosis Related Diabetes in young infants. 
+
+Inspiration and Design:
+
+As the website was predesigned by a colleague, the website was in need of a redesign and a restructuring of the content. This was 
+discussed with the project manager and the clients.
+
+Project Progress:
+
+The website pages were coded in PHP, HTML, and CSS. The redesign was coded using the same programming, but added a 
+few jQuery charts as well.
+
+Final Design:
+
+
+The final design was indeed colorful, but it was more compact and organized in terms of the content and navigation.
+
+Client: CHOP

@@ -1,0 +1,38 @@
+
+
+
+#project: Code Editor Website
+
+#category: Web/Graphic Design
+
+#short desc: Project project using HTML, CSS, and Javascript
+
+#long desc: This is a practice project that I tried to create a code editor sandbox where you could
+make changes and view your results in real time. It could still use some work, but it is functionable.
+
+#skills: HTML, CSS, Javascript
+
+
+
+Project Title: 
+
+CodePlayer
+
+Project Description:
+
+This is a practice project that I tried to create a code editor sandbox where you could
+make changes and view your results in real time.
+
+Inspiration and Design:
+
+N/A
+
+Project Progress:
+
+It could still use some work, but it is functionable.
+
+Final Design:
+
+N/A
+
+Client: Federal Aviation Administration
